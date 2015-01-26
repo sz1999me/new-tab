@@ -1,0 +1,53 @@
+@font-face {
+	font-family: TimeFont;
+	src: url('Time.ttf');
+}
+
+body {
+	background-color:#355088;
+	text-align: center;
+	margin: 0 0 0 0 ;
+	overflow: hidden;
+}
+
+div {
+	height:33%;
+	width: 100%;
+	text-align: center;
+	margin: 0 0 0 0 ;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0 0 0 0;
+}
+
+#quote {
+	color: white;
+	padding-top: 3%;
+	font-size: 25px;
+	text-shadow: 0 0px 15px #fff;
+}
+
+#author {
+	padding-top: 1%;
+	color: #FFFFFF;	
+	opacity: 0.8;
+}
+
+#date {
+	padding-top: 1%;
+	color:#fff;
+	opacity: .5;
+	font-size: 20px;
+}
+
+#time {	
+	font-family: TimeFont;
+	color: #FFFFFF;
+	padding-top: 2%;
+	opacity: 0.6;
+	font-size: 800%;
+	margin: 0 0 0 0;
+}

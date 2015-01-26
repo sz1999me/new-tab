@@ -1,0 +1,11 @@
+{
+	"author": "imjching",
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"description": "Derived from La-Z-Tab, new-tab is a replacement page for Chrome's New Tab that displays random quotes and the current time.",
+	"incognito": "split",
+	"name": "new-tab",
+	"version": "1.0",
+	"manifest_version": 2
+}
