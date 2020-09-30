@@ -1,5 +1,5 @@
 window.onload = function start() {
-	random = Math.floor((Math.random() * 163) + 1);
+	random = Math.floor(Math.random() * 164);
 	var quotes = fetchQuote(random);
 	document.getElementById('quote').innerHTML = quotes.quote;
 	document.getElementById('author').innerHTML = "- " + quotes.author;
